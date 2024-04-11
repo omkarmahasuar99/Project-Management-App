@@ -18,7 +18,6 @@ export default function NewProject({ onSave, onCancel }) {
       descriptionData.trim() === "" ||
       dueDateData.trim() === ""
     ) {
-      // alert("Please fill all the fields");
       modal.current.open();
       return;
     }
